@@ -116,7 +116,9 @@ img {
         padding: 0;
     }
 
-     
+    .menu-link.current {
+        color: var(--accent-color);
+    }
 
     .contact-list {
         display: flex;
