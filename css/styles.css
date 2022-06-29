@@ -148,6 +148,7 @@ img {
         color: var(--accent-color)
     }
     
+
     .menu-link {
         color: var(--primery-text-color)
     }
@@ -172,8 +173,13 @@ img {
         color: var(--accent-color)
     }
 
+    .mail-header:hover .maile-icone,
+    .mail-header:focus .maile-icone {
+        fill: var(--accent-color);
+}
 
-    .phone-icone{
+
+    .phone-icone {
         margin-right: 10px;
         fill: var(--text-color);
     }
@@ -193,7 +199,12 @@ img {
         color: var(--accent-color);
     }
 
+    .phone-number-header:hover .phone-icone,
+    .phone-number-header:focus .phone-icone {
+        fill: var(--accent-color);
+}
 
+    
    
 
 /* maine hero */
