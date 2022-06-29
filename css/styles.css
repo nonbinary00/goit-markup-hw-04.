@@ -99,8 +99,8 @@ img {
     .header-container {
         display: flex;
         align-items: center; 
-        padding-top: 24px;
-        padding-bottom: 25px;
+        /* padding-top: 24px;
+        padding-bottom: 25px; */
     
     }
 
@@ -150,8 +150,10 @@ img {
     
 
     .menu-link {
-        color: var(--primery-text-color)
-    }
+        color: var(--primery-text-color);
+        display: block;
+        padding: 25px 0;
+     }
 
     .maile-icone{
         margin-right: 10px;
